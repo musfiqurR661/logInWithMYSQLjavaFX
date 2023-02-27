@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.ourproject.LogInController">
+   <children>
+      <Label fx:id="welcom" alignment="CENTER" layoutX="112.0" layoutY="66.0" prefHeight="35.0" prefWidth="376.0" text="Welcome to codeCampus" textFill="#f20101">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="logOutB_LB" layoutX="274.0" layoutY="163.0" mnemonicParsing="false" style="-fx-background-color: SKYBLUE;" text="LogOut" textFill="#f20b0b" />
+      <Label fx:id="easypeasy" alignment="CENTER" layoutX="122.0" layoutY="109.0" prefHeight="35.0" prefWidth="376.0" text="Learn Code EasyPeasy" textFill="#f20101">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
